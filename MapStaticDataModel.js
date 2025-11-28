@@ -22,4 +22,4 @@ const mapStaticSchema = new mongoose.Schema({
 //조회 속도 최적화를 위한 복합 인덱스 설정
 mapStaticSchema.index({globalX: 1, globalY: 1}, {unique: true});
 
-//module.exports = mongoose.model('MapStaticData', mapStaticSchema);
+module.exports = mongoose.model('MapStaticData', mapStaticSchema);

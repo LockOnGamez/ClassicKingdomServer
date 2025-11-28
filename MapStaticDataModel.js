@@ -1,4 +1,4 @@
-import mongoose from "mongoose";
+const mongoose = require('mongoose');
 
 const mapStaticSchema = new mongoose.Schema({
     //맵 좌표 (필수 인덱스)

@@ -4,7 +4,7 @@ const {
     MAP_HEIGHT, MAP_CENTER_Y, MAX_ADVANCEMENT_DISTANCE,
     MAX_MONSTER_LEVEL, OUTPOST_CHANCE, MOUNTAIN_CHANCE, MAP_WIDTH
 } = require('./constants');
-const MapStaticData = require('./mapStaticDataModel'); // MongoDB 모델 (별도 파일 혹은 server.js에서 정의)
+const MapStaticData = require('./mapStaticDataModel.js'); // MongoDB 모델 (별도 파일 혹은 server.js에서 정의)
 
 
 /** 몬스터 레벨을 Y축 대칭 구조로 계산 (중앙 Y=450에서 최고 레벨) */

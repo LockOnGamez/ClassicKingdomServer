@@ -12,7 +12,7 @@ const mapStaticSchema = new mongoose.Schema({
     //오브젝트 정보 (타일에 거점/몬스터가 있는 경우)
     hasObject: {type: Boolean, default: false},
     object: {
-        type: {type: Stringm, enum: ['Outpost', 'MonsterSpot', 'None']},
+        type: {type: String, enum: ['Outpost', 'MonsterSpot', 'None']},
         initialMonsterLevel: {type: Number, default: 0},
         initialMonsterCount: {type: Number, default: 0},
         //기타 거점 고유 속성 (예: scoreValue, defense)
